@@ -163,6 +163,24 @@
     font-style: italic;
   }
 
+  /* ── Info box ── */
+  .info-box {
+    background: var(--panel);
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    margin: 0 20px 16px;
+    padding: 12px 16px;
+    color: var(--subtext);
+    font-size: 0.9rem;
+    line-height: 1.6;
+  }
+  .info-box p + p { margin-top: 8px; }
+  .info-box ol {
+    margin: 8px 0 0 1.4em;
+  }
+  .info-box ol li { margin-bottom: 2px; }
+  .info-box strong { color: var(--text); }
+
   /* dice animation */
   @keyframes pop {
     0%   { transform: scale(1.4); opacity: 0.6; }
@@ -193,6 +211,16 @@
   <button id="btn-roll">Roll Encounter (d100)</button>
   <button id="btn-reroll" disabled>Re-roll</button>
   <span id="roll-badge"></span>
+</div>
+
+<div class="info-box">
+  <p>Each encounter is designed to be a medium challenge for four characters of the given level. Two or three characters will find the encounter to be hard or even deadly, while a party of five or six characters will find the encounter to be easy.</p>
+  <p><strong>How to use:</strong></p>
+  <ol>
+    <li>Select the party level from the dropdown (Level 1–Level 9)</li>
+    <li>Click <strong>Roll Encounter (d100)</strong> or press Space/Enter</li>
+    <li>View the encounter and treasure panels</li>
+  </ol>
 </div>
 
 <div class="panels">
