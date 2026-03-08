@@ -4,6 +4,8 @@
 
 In 1977 TSR published the first [Monster & Treasure Assortment book](https://en.wikipedia.org/wiki/Monster_%26_Treasure_Assortment) for level 1-3, they eventually published 4-6, and 7-9. These were simple tables designed to give the DM a quick and dirty encounter and treasure for the encounter. I used the heck out of these table through out the 1980's. This provides similar fucntionality for a modern D&D 5E DM. Although designed specifically for the 2014 version of D&D, it should work just fine for the 2024 version as well. To see it in action go to https://carnifex.us. For anyone who wants copies of the tables I built, they are .md files in the data folder, so you can print them out and use them at your table without the need for a computer.
 
+Each encounter is designed to be a medium challenge for four characters of the given level. Two or three character will find the encounter to be hard or even deadly, while a party of five or six character will find the encounter to be easy.
+
 This is a browser-based tool for generating random monster encounters and treasure for D&D 5th Edition (2014 rules). Select a party level, roll a d100, and instantly see the encounter details and matching treasure assortment.
 
 ## Features
